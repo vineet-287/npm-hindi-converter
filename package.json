@@ -1,0 +1,29 @@
+{
+  "name": "npm-hindi-converter",
+  "version": "0.1.0",
+  "description": "A small package to convert string into Hindi by picking some basics hindi fonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineet-287/npm-hindi-converter.git"
+  },
+  "keywords": [
+    "npm-hindi-converter",
+    "hindi-converter",
+    "node-hindi",
+    "node-hindi-converter"
+  ],
+  "author": "Vineet Verma <vkv000@gmail.com> (https://github.com/vineet-287)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineet-287/npm-hindi-converter/issues"
+  },
+  "homepage": "https://github.com/vineet-287/npm-hindi-converter#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
