@@ -17,12 +17,12 @@ This package is now supporting 2 main hindi fonts
       convert = converter.convert;
 
   var htmlKrutiDev = 'l $ v"Vkax dh lfU/ D;k gksxh\',
-      convertKrutiDev = convert(htmlKrutiDev, 'Krutidev10');
+      convertedKrutiDev = convert(htmlKrutiDev, 'Krutidev10');
 
   var htmlChanakya = 'ÚUæÁSÍæÙ çßçÙØæð» ÂýæðˆâæãUÙ ØæðÁÙæ w®vy ç·¤Ù ÂÚU Üæ»ê ãUæð»è?';
-      convertChanakya = convert(htmlKrutiDev, 'Chanakya');
+      convertChanakya = convert(htmlChanakya, 'Chanakya');
       
-  console.log('htmlKrutiDev', htmlKrutiDev, 'convertedKrutiDev', convertKrutiDev);
+  console.log('htmlKrutiDev', htmlKrutiDev, 'convertedKrutiDev', convertedKrutiDev);
   console.log('htmlChanakya', htmlChanakya, 'convertChanakya', convertChanakya);
 ```
 
