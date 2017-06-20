@@ -1,7 +1,7 @@
 {
   "name": "npm-hindi-converter",
   "version": "0.1.0",
-  "description": "A small package to convert string into Hindi by picking some basics hindi fonts",
+  "description": "A small package to convert html string into Hindi by picking some basic hindi fonts. As of now this plugin supports `Krutidev10` and `Chanakya` fonts.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
@@ -17,7 +17,7 @@
     "node-hindi-converter"
   ],
   "author": "Vineet Verma <vkv000@gmail.com> (https://github.com/vineet-287)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vineet-287/npm-hindi-converter/issues"
   },
